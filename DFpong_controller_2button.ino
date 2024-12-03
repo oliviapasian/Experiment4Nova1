@@ -10,6 +10,10 @@
  * SensorFusion library to transform the raw values into degrees.
  *
  * Game Link : https://digitalfuturesocadu.github.io/df-pong/
+ *
+ * Code references:
+ * https://github.com/DigitalFuturesOCADU/CC2024/tree/main/experiment4/Arduino/BLE/DFpong_controller_2button
+ * https://github.com/DigitalFuturesOCADU/CC2024/tree/main/experiment4/Arduino/Sensors/IMU/imu_orientationData
  * 
  * Movement Values:
  * 0 = No movement / Neutral position
@@ -50,7 +54,7 @@
 SF fusion;
 
 //Controller name
-const char* deviceName = "opasi";
+const char* deviceName = "NOVA.COMPONENT_1";
 
 // Pin definitions buzzer/LED
 const int BUZZER_PIN = 11;       // Pin for haptic feedback buzzer
